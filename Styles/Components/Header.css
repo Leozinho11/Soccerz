@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #27f301;
+    height: 6.5rem;
+    gap: 45rem;
+}
+
+.headerLinks{
+    display: flex;
+    white-space: nowrap;
+    gap: 2rem;
+    color: black;
+}
+
+
