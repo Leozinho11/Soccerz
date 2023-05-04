@@ -1,0 +1,16 @@
+button{
+    display: flex;
+    background-color: #14FF00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: #1fc70f;
+    transition: all 0.2s;
+}

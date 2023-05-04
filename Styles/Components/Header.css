@@ -1,16 +1,36 @@
-.header{
+.header {
     display: flex;
     align-items: center;
-    background-color: #27f301;
+    border-bottom: 3px solid black;
     height: 6.5rem;
     gap: 45rem;
 }
 
-.headerLinks{
-    display: flex;
-    white-space: nowrap;
-    gap: 2rem;
-    color: black;
+.headerImg{
+    height: 6.5rem;
+    margin-left: 2rem;
 }
 
+.headerImg img{
+    height: 6.5rem;
+}
 
+.headerLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.headerLinks a{
+    padding: 1rem;
+}
+
+.headerLinks a:hover{
+    border-bottom: 3px solid #14FF00;
+    color: #14FF00;
+    transition: all 0.2s ease-in-out;
+}

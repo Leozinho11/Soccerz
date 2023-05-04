@@ -1,0 +1,21 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 17.5rem;
+    border: 2px solid #14FF00;
+    border-radius: 50px;
+    padding-bottom: 1rem;
+}
+
+.card p{
+    color: #14FF00;
+    width: 10.5rem;
+}
+
+.card img{
+    width: 17.5rem;
+    border-radius: 40px;
+}

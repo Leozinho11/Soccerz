@@ -1,0 +1,40 @@
+.homeMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid #14FF00;
+}
+
+.homeMainTextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #14FF00;
+    color: black;
+    gap: 2rem;
+    width: 35.5rem;
+    height: 36.5rem;
+    border-radius: 45px;
+}
+
+.homeMainTextContainer h1{
+    width: 25.5rem;
+}
+
+.homeMainTextContainer p{
+    width: 27.5rem;
+    font-size: 2rem;
+}
+
+.homeMainImgContainer img{
+    width: 26.5rem;
+}
+
+.homeCardsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

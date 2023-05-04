@@ -12,4 +12,16 @@ body{
     display: flex;
     flex-direction: column;
     background-color: white;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3rem;
+}
+
+p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
 }

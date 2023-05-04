@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&family=Kanit:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../Styles/Global.css">
+    <link rel="stylesheet" href="../Styles/Home.css">
     <link rel="stylesheet" href="../Styles/Components/Header.css">
+    <link rel="stylesheet" href="../Styles/Components/Button.css">
+    <link rel="stylesheet" href="../Styles/Components/Card.css">
     <title>Soccerz - Home</title>
 </head>
+
 <body>
     <div class="header">
         <div class="headerImg">
-            <img src="../Assets/logoIndividual.svg" alt="">
+            <a href="#">
+                <img src="../Assets/logoIndividual.svg" alt="">
+            </a>
         </div>
 
-       <div class="headerLinks">
-        <a href="">Home</a>
-        <a href="">Sobre</a>
-        <a href="">Curiosidades</a>
-        <a href="">História</a>
-        <p>|</p>
-        <a href="">Login</a>
-        <a href="">Cadastro</a>
-       </div>
+        <div class="headerLinks">
+            <a href="">Home</a>
+            <a href="">Sobre</a>
+            <a href="">Curiosidades</a>
+            <a href="">História</a>
+            <p>|</p>
+            <a href="">Login</a>
+            <a href="">Cadastro</a>
+        </div>
+    </div>
+
+    <div class=homeMainContainer>
+        <div class="homeMainTextContainer">
+            <h1>Fala jogador caro !</h1>
+            <p>Aqui na Soccerz você vai poder descobrir as principais curiosidades sobre esse lindo espetáculo chamado
+                futebol.</p>
+        </div>
+
+        <div class="homeMainImgContainer">
+            <img src="../Assets/MainPhoto.svg" alt="">
+        </div>
+    </div>
+
+    <div class="homeCardsContainer">
+        <div class="card">
+            <img src="../Assets/CardCalculatorPhoto.svg" alt="">
+            <p>Jogou um fut ? <br>
+                Então clique aqui para calcular sua média de gols no mês</p>
+            <a href="">
+                <button>Calcular gols</button>
+            </a>
+        </div>
     </div>
 </body>
+
 </html>
