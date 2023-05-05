@@ -3,5 +3,7 @@ function calcularMediaGols() {
         var qtdGols = Number(inputQtdGols.value);
         var mediaAritimetica = qtdGols * qtdPartidas / 30
 
-        divMedia.innerHTML = `A sua média de gols nesse mês foi de <span>${mediaAritimetica} gols</span>`
+        divMedia.innerHTML = `<p class="goalsAverageContainer">A sua média de gols nesse mês foi de <span>${mediaAritimetica} gols</span></p>`
     }
+
+    
