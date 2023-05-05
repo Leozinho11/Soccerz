@@ -1,0 +1,42 @@
+
+.calculatorMainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.calculatorMainContainer input{
+    display: flex;
+    height: 2rem;
+    outline: 3px solid black;
+    border-inline: none;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.calculatorMainContainer input:hover{
+    outline: 3px solid #726f6f;
+    transition: all 0.1s;
+    border-inline: none;
+
+}
+
+.calculatorMainContainer input:focus{
+    outline: 3px solid #14FF00;
+    border-inline: none;
+}
+
+.goalsAverageContainer{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #14FF00;
+    border-radius: 15px;
+    padding: 1.5rem;
+}
+
+.goalsAverageContainer span{
+    text-decoration: 2px underline #14FF00;
+}
