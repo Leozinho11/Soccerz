@@ -4,7 +4,7 @@
     justify-content: space-around;
     gap: 1rem;
     margin-top: 1rem;
-    border-bottom: 1px solid #14FF00;
+    border-bottom: 3px solid #14FF00;
 }
 
 .homeMainTextContainer{
@@ -37,4 +37,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-bottom: 3px solid #14FF00;
+}
+
+.cardContainerImg img{
+    width: 20rem;
 }
