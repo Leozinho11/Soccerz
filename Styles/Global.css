@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: white;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #14FF00;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
 a{
     color: inherit;
     text-decoration: none;
@@ -14,6 +28,7 @@ body{
     background-color: white;
     gap: 1rem;
     margin-bottom: 1rem;
+    overflow-x: hidden;
 }
 
 h1{
@@ -24,4 +39,8 @@ h1{
 p, input{
     font-family: 'Kanit', sans-serif;
     font-size: 1rem;
+}
+
+label{
+    font-family: 'Kanit', sans-serif;
 }

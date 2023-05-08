@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&family=Kanit:wght@400;500;700&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="../Styles/Global.css">
-        <link rel="stylesheet" href="../Styles/Cadastro.css">
-        <link rel="stylesheet" href="../Styles/Components/Header.css">
-        <link rel="stylesheet" href="../Styles/Components/Button.css">
-        <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
-        <title>Soccerz - Home</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&family=Kanit:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/Global.css">
+    <link rel="stylesheet" href="../Styles/Cadastro.css">
+    <link rel="stylesheet" href="../Styles/Components/Header.css">
+    <link rel="stylesheet" href="../Styles/Components/Button.css">
+    <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
+    <title>Soccerz - Home</title>
+</head>
+
 <body>
     <div class="header">
         <div class="headerImg">
@@ -35,8 +37,78 @@
         </div>
     </div>
 
-    <div class="CadastroMainContainer">
+    <div class="cadastroMainContainer">
+        <div class="cadastroInputsContainer">
 
+            <div class="cadastroInputsAsside">
+                <label for="inputNome">
+                    Nome: <input id="inputNome" placeholder="Insira seu nome">
+                </label>
+                <label for="inputSobrenome">
+                    Sobrenome: <input id="inputSobrenome" placeholder="Insira seu sobrenome">
+                </label>
+            </div>
+
+            <label for="inputCPF">
+                CPF: <input id="inputCPF" placeholder="Insira seu CPF">
+            </label>
+
+            <div class="cadastroInputsAsside">
+                <label for="inputRua">
+                    Rua: <input id="inputRua" placeholder="Insira a rua em que mora">
+                </label>
+                <label for="inputNúmero">
+                    Número: <input id="inputNúmero" placeholder="Insira o número de sua casa">
+                </label>
+            </div>
+
+            <div class="cadastroInputsAsside">
+                <label for="inputBairro">
+                    Bairro: <input id="inputBairro" placeholder="Insira seu bairro">
+                </label>
+                <label for="inputUF">
+                    UF: <input id="inputUF" placeholder="Insira o seu estado">
+                </label>
+            </div>
+
+            <div class="cadastroInputsAsside">
+                <label for="inputEmail">
+                    Email: <input id="inputEmail" placeholder="Insira seu email">
+                </label>
+                <label for="inputSenha">
+                    Senha: <input id="inputSenha" placeholder="Insira sua senha">
+                </label>
+            </div>
+
+            <label for="selectTime">
+                Time: <select id="selectTime">
+                    <option value="Selecionar" selected>Selecionar</option>
+                    <option value="América-MG">América-MG</option>
+                    <option value="Athletico-PR">Athletico-PR</option>
+                    <option value="Atlético-MG">Atlético-MG</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Botafogo">Botafogo</option>
+                    <option value="Corinthians">Corinthians</option>
+                    <option value="Coritiba">Coritiba</option>
+                    <option value="Cruzeiro">Cruzeiro</option>
+                    <option value="Cuiabá">Cuiabá</option>
+                    <option value="Flamengo">Flamengo</option>
+                    <option value="Fluminense">Fluminense</option>
+                    <option value="Fortaleza">Fortaleza</option>
+                    <option value="Goiás">Goiás</option>
+                    <option value="Grêmio">Grêmio</option>
+                    <option value="Internacional">Internacional</option>
+                    <option value="Palmeiras">Palmeiras</option>
+                    <option value="Red Bull Bragantino">Red Bull Bragantino</option>
+                    <option value="Santos">Santos</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Vasco">Vasco</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </label>
+            <button onclick="cadastrar()">Cadastrar</button>
+        </div>
     </div>
 </body>
+
 </html>
