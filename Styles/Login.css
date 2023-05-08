@@ -1,0 +1,46 @@
+.loginMainContainer {
+    display: flex;
+    flex-direction: column;
+    margin: -1rem;
+    align-items: center;
+    justify-content: center;
+    background: url(../Assets/LoginImages/LoginBG.svg);
+    background-size: cover;
+}
+
+.loginInputsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 15rem;
+    backdrop-filter: blur(4px);
+    border: 2px solid #14FF00;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 1rem 0rem 11rem 0rem;
+}
+
+.loginInputsContainer h1, .loginInputsContainer p{
+    color: #14FF00;
+}
+
+.loginInputsContainer a{
+    text-decoration: underline;
+}
+
+.loginInputsContainer a:hover{
+    color: #239518;
+    transition: all 0.1s;
+}
+
+.loginInputsContainer input{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.loginInputsContainer span{
+    font-family: 'Kanit', sans-serif;
+    color: #14FF00;
+}
