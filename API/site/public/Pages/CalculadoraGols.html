@@ -11,41 +11,42 @@
         href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&family=Kanit:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../Styles/Global.css">
-    <link rel="stylesheet" href="../Styles/Login.css">
+    <link rel="stylesheet" href="../Styles/Calculator.css">
     <link rel="stylesheet" href="../Styles/Components/Header.css">
     <link rel="stylesheet" href="../Styles/Components/Button.css">
     <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
-    <title>Soccerz - Login</title>
+    <title>Soccerz - Home</title>
 </head>
 
 <body>
     <div class="header">
         <div class="headerImg">
-            <a href="Index.html">
+            <a href="../Index.html">
                 <img src="../Assets/logoIndividual.svg" alt="">
             </a>
         </div>
 
         <div class="headerLinks">
-            <a href="Index.html">Home</a>
+            <a href="../Index.html">Home</a>
             <a href="">Sobre</a>
             <a href="">Curiosidades</a>
             <a href="">História</a>
             <p>|</p>
-            <a href="Login.html">Login</a>
+            <a href="">Login</a>
             <a href="Cadastro.html">Cadastro</a>
         </div>
     </div>
 
-    <div class="loginMainContainer">
-        <div class="loginInputsContainer">
-            <h1>Login</h1>
-            <p>Caso não tenha uma conta, <a href="Cadastro.html">cadastre-se.</a></p>
-            <span>Email:</span> <input id="inputEmail">
-            <span>Senha:</span> <input id="inputSenha">
-            <button onclick="entrar()">Entrar</button>
-        </div>
+    <div class="calculatorMainContainer">
+        Insira aqui a quantidade de partidas que você jogou no mês: <input id="inputQtdPartidas"><br>
+        Insira aqui a quantidade de gols que você marcou em média por partida: <input id="inputQtdGols"><br>
+        <button onclick="calcularMediaGols()">Ver média de gols no mês</button>
+        <br>
+        <br>
+        <div id="divMedia"></div>
     </div>
 </body>
+<script src="../Scripts/Calculadora.js"></script>
 
 </html>
+
