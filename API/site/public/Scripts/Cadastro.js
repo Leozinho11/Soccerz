@@ -1,3 +1,4 @@
+
 function cadastro() {
     
     //Recupere o valor da nova input pelo nome do id
