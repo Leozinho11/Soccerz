@@ -1,4 +1,15 @@
+function validacaoLogin() {
+    var email = inputEmail.value;
+    var senha = inputSenha.value;
+
+    if (email == "" || senha == "") {
+        alert("Insira seu email e senha !!")
+    }
+}
+
 function entrar() {
+
+    validacaoLogin();
 
     var emailVar = inputEmail.value;
     var senhaVar = inputSenha.value;
@@ -29,7 +40,7 @@ function entrar() {
                 sessionStorage.NOME_USUARIO = json.nome;
                 sessionStorage.ID_USUARIO = json.id;
 
-                window.location = "../Index.html";
+                window.location = "UserPage.html";
 
             });
 

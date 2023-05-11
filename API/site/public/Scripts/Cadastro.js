@@ -197,6 +197,7 @@ function cadastro() {
         if (resposta.ok) {
             window.location = "../Pages/Login.html";
         } else {
+            alert("Não foi possível realizar o cadastro!");
             throw ("Houve um erro ao tentar realizar o cadastro!");
         }
     }).catch(function (resposta) {
