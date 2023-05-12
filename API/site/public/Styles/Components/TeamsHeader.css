@@ -1,0 +1,91 @@
+.flamengoHeader {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    border-bottom: 3px solid black;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.flamengoLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.flamengoImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.flamengoImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.flamengoImg img{
+    height: 5rem;
+}
+
+.flamengoLinks a{
+    padding: 1rem;
+}
+
+.flamengoLinks a:hover{
+    border-bottom: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: all 0.2s ease-in-out;
+}
+
+.santosHeader {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 3px solid #e6aa12;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.santosLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.santosImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.santosImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.santosImg img{
+    height: 5rem;
+}
+
+.santosLinks a{
+    padding: 1rem;
+}
+
+.santosLinks a:hover{
+    border-bottom: 3px solid #e6aa12;
+    color: #e6aa12;
+    transition: all 0.2s ease-in-out;
+}

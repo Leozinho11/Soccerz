@@ -7,8 +7,16 @@
 }
 
 .headerImg{
+    display: flex;
     height: 6.5rem;
     margin-left: 2rem;
+}
+
+.headerImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .headerImg img{

@@ -7,9 +7,13 @@ function validacaoLogin() {
     }
 }
 
+
+
 function entrar() {
 
     validacaoLogin();
+
+    
 
     var emailVar = inputEmail.value;
     var senhaVar = inputSenha.value;

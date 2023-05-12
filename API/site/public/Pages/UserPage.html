@@ -15,19 +15,20 @@
     <link rel="stylesheet" href="../Styles/Components/Header.css">
     <link rel="stylesheet" href="../Styles/Components/Card.css">
     <link rel="stylesheet" href="../Styles/Components/Button.css">
+    <link rel="stylesheet" href="../Styles/Components/TeamsHeader.css">
     <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
     <title>Soccerz - Menu</title>
 </head>
 
 <body>
-    <div class="header">
-        <div class="headerImg">
-            <a href="../Index.html">
+    <div class="header" id="header">
+        <div class="headerImg" id="headerImg">
+            <a href="../Index.html" id="headerImgTeam">
                 <img src="../Assets/logoIndividual.svg" alt="">
             </a>
         </div>
 
-        <div class="headerLinks">
+        <div class="headerLinks" id="headerLinks">
             <a href="../Index.html">Home</a>
             <a href="">Sobre</a>
             <a href="">Curiosidades</a>
@@ -41,13 +42,13 @@
     <div class="menuMainContainer">
 
         <div class="menuGreetingsContainer">
-            <h1>Opa, <span id="userName">User</span>.</h1>
+            <h1>Opa, <span id="userName"></span>.</h1>
             <p>o que manda hoje?</p>
         </div>
 
 
         <div class="menuRowContainer">
-            <div class="cardContainerImg">
+            <div class="cardContainerImg" id="cardContainerImg">
                 <img src="../Assets/CardImages/CalculatorContainerMainPhoto.svg" alt="">
             </div>
 
@@ -75,6 +76,4 @@
 
 </html>
 
-<script>
-    userName.innerHTML = sessionStorage.NOME_USUARIO;
-</script>
+<script src="../Scripts/Menu.js"></script>
