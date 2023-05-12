@@ -33,13 +33,3 @@
     width: 26.5rem;
 }
 
-.homeCardsContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 3px solid #14FF00;
-}
-
-.cardContainerImg img{
-    width: 20rem;
-}

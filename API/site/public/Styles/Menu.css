@@ -1,0 +1,33 @@
+.menuMainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.menuGreetingsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 35rem;
+}
+
+.menuGreetingsContainer p{
+    font-size: 2rem;
+}
+
+.menuRowContainer{
+    display: flex;
+    gap: 5rem;
+}
+
+.menuCardsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.cardContainerImg img{
+    width: 20rem;
+}

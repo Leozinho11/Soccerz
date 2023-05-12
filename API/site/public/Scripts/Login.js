@@ -38,7 +38,8 @@ function entrar() {
 
                 sessionStorage.EMAIL_USUARIO = json.email;
                 sessionStorage.NOME_USUARIO = json.nome;
-                sessionStorage.ID_USUARIO = json.id;
+                sessionStorage.TIME_USUARIO = json.timeUsuario;
+                sessionStorage.ID_USUARIO = json.idUsuario;
 
                 window.location = "UserPage.html";
 
