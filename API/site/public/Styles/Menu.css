@@ -28,8 +28,15 @@
     gap: 5rem;
 }
 
+.cardContainerImg{
+    display: flex;
+    width: 35rem;
+}
+
 .cardContainerImg img{
+    display: flex;
     height: 35rem;
+    width: 35rem;
 }
 
 

@@ -89,3 +89,831 @@
     color: #e6aa12;
     transition: all 0.2s ease-in-out;
 }
+
+.corinthiansHeader {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-bottom: 3px solid red;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.corinthiansLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.corinthiansImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.corinthiansImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.corinthiansImg img{
+    height: 5rem;
+}
+
+.corinthiansLinks a{
+    padding: 1rem;
+}
+
+.corinthiansLinks a:hover{
+    border-bottom: 3px solid red;
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+
+.palmeirasHeader {
+    display: flex;
+    align-items: center;
+    background-color: green;
+    border-bottom: 3px solid white;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.palmeirasLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.palmeirasImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.palmeirasImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.palmeirasImg img{
+    height: 5rem;
+}
+
+.palmeirasLinks a{
+    padding: 1rem;
+}
+
+.palmeirasLinks a:hover{
+    border-bottom: 3px solid red;
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+
+.saopauloHeader {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 3px solid red;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.saopauloLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: red;
+    font-family: 'Kanit', sans-serif;
+}
+
+.saopauloImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.saopauloImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.saopauloImg img{
+    height: 5rem;
+}
+
+.saopauloLinks a{
+    padding: 1rem;
+}
+
+.saopauloLinks a:hover{
+    border-bottom: 3px solid black;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.internacionalHeader {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    border-bottom: 3px solid white;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.internacionalLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.internacionalImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.internacionalImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.internacionalImg img{
+    height: 5rem;
+}
+
+.internacionalLinks a{
+    padding: 1rem;
+}
+
+.internacionalLinks a:hover{
+    border-bottom: 3px solid white;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.gremioHeader {
+    display: flex;
+    align-items: center;
+    background-color: #0c88e1;
+    border-bottom: 3px solid white;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.gremioLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.gremioImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.gremioImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gremioImg img{
+    height: 5rem;
+}
+
+.gremioLinks a{
+    padding: 1rem;
+}
+
+.gremioLinks a:hover{
+    border-bottom: 3px solid black;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.vascoHeader {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 3px solid black;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.vascoLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.vascoImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.vascoImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.vascoImg img{
+    height: 5rem;
+}
+
+.vascoLinks a{
+    padding: 1rem;
+}
+
+.vascoLinks a:hover{
+    border-bottom: 3px solid red;
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+
+.fluminenseHeader {
+    display: flex;
+    align-items: center;
+    background-color: green;
+    border-bottom: 3px solid #ab0909;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.fluminenseLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #ab0909;
+    font-family: 'Kanit', sans-serif;
+}
+
+.fluminenseImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.fluminenseImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.fluminenseImg img{
+    height: 5rem;
+}
+
+.fluminenseLinks a{
+    padding: 1rem;
+}
+
+.fluminenseLinks a:hover{
+    border-bottom: 3px solid white;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.botafogoHeader {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-bottom: 3px solid white;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.botafogoLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.botafogoImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.botafogoImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.botafogoImg img{
+    height: 5rem;
+}
+
+.botafogoLinks a{
+    padding: 1rem;
+}
+
+.botafogoLinks a:hover{
+    border-bottom: 3px solid white;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.bahiaHeader {
+    display: flex;
+    align-items: center;
+    background-color: #0845ee;
+    border-bottom: 3px solid red;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.bahiaLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.bahiaImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.bahiaImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bahiaImg img{
+    height: 5rem;
+}
+
+.bahiaLinks a{
+    padding: 1rem;
+}
+
+.bahiaLinks a:hover{
+    border-bottom: 3px solid red;
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+
+.atleticomgHeader {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-bottom: 3px solid white;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.atleticomgLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.atleticomgImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.atleticomgImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.atleticomgImg img{
+    height: 5rem;
+}
+
+.atleticomgLinks a{
+    padding: 1rem;
+}
+
+.atleticomgLinks a:hover{
+    border-bottom: 3px solid #e6aa12;
+    color: #e6aa12;
+    transition: all 0.2s ease-in-out;
+}
+
+.cruzeiroHeader {
+    display: flex;
+    align-items: center;
+    background-color: #0845ee;
+    border-bottom: 3px solid white;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.cruzeiroLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.cruzeiroImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.cruzeiroImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cruzeiroImg img{
+    height: 5rem;
+}
+
+.cruzeiroLinks a{
+    padding: 1rem;
+}
+
+.cruzeiroLinks a:hover{
+    border-bottom: 3px solid white;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.americamgHeader {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 3px solid greenyellow;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.americamgLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: green;
+    font-family: 'Kanit', sans-serif;
+}
+
+.americamgImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.americamgImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.americamgImg img{
+    height: 5rem;
+}
+
+.americamgLinks a{
+    padding: 1rem;
+}
+
+.americamgLinks a:hover{
+    border-bottom: 3px solid greenyellow;
+    color: greenyellow;
+    transition: all 0.2s ease-in-out;
+}
+
+.goiasHeader {
+    display: flex;
+    align-items: center;
+    background-color: green;
+    border-bottom: 3px solid white;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.goiasLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.goiasImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.goiasImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.goiasImg img{
+    height: 5rem;
+}
+
+.goiasLinks a{
+    padding: 1rem;
+}
+
+.goiasLinks a:hover{
+    border-bottom: 3px solid white;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.coritibaHeader {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 3px solid green;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.coritibaLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: green;
+    font-family: 'Kanit', sans-serif;
+}
+
+.coritibaImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.coritibaImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.coritibaImg img{
+    height: 5rem;
+}
+
+.coritibaLinks a{
+    padding: 1rem;
+}
+
+.coritibaLinks a:hover{
+    border-bottom: 3px solid green;
+    color: green;
+    transition: all 0.2s ease-in-out;
+}
+
+.cuiabaHeader {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    border-bottom: 3px solid green;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.cuiabaLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: green;
+    font-family: 'Kanit', sans-serif;
+}
+
+.cuiabaImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.cuiabaImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cuiabaImg img{
+    height: 5rem;
+}
+
+.cuiabaLinks a{
+    padding: 1rem;
+}
+
+.cuiabaLinks a:hover{
+    border-bottom: 3px solid green;
+    color: green;
+    transition: all 0.2s ease-in-out;
+}
+
+.rbbragantinoHeader {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 3px solid red;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.rbbragantinoLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: red;
+    font-family: 'Kanit', sans-serif;
+}
+
+.rbbragantinoImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.rbbragantinoImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.rbbragantinoImg img{
+    height: 5rem;
+}
+
+.rbbragantinoLinks a{
+    padding: 1rem;
+}
+
+.rbbragantinoLinks a:hover{
+    border-bottom: 3px solid #e6aa12;
+    color: #e6aa12;
+    transition: all 0.2s ease-in-out;
+}
+
+.fortalezaHeader {
+    display: flex;
+    align-items: center;
+    background-color: #0845ee;
+    border-bottom: 3px solid red;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.fortalezaLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.fortalezaImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.fortalezaImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.fortalezaImg img{
+    height: 5rem;
+}
+
+.fortalezaLinks a{
+    padding: 1rem;
+}
+
+.fortalezaLinks a:hover{
+    border-bottom: 3px solid red;
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+
+.athleticoprHeader {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    border-bottom: 3px solid black;
+    height: 6.5rem;
+    gap: 40rem;
+}
+
+.athleticoprLinks {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.athleticoprImg{
+    display: flex;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.athleticoprImg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.athleticoprImg img{
+    height: 5rem;
+}
+
+.athleticoprLinks a{
+    padding: 1rem;
+}
+
+.athleticoprLinks a:hover{
+    border-bottom: 3px solid black;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
