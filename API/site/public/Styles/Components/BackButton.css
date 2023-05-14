@@ -1,0 +1,15 @@
+.buttonBack {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.buttonBack a{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.25rem;
+    color: #14FF00;
+}
+
+.buttonBack a:hover{
+    text-decoration: underline;
+    color: #15bd06;
+}

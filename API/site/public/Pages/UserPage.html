@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../Styles/Components/Card.css">
     <link rel="stylesheet" href="../Styles/Components/Button.css">
     <link rel="stylesheet" href="../Styles/Components/TeamsHeader.css">
+    <link rel="stylesheet" href="../Styles/Components/Account.css">
     <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
     <title>Soccerz - Menu</title>
 </head>
@@ -34,8 +35,10 @@
             <a href="">Curiosidades</a>
             <a href="">História</a>
             <p>|</p>
-            <a href="Login.html">Login</a>
-            <a href="Cadastro.html">Cadastro</a>
+            <div class="accountInfoContainer" id="accountInfoContainer">
+                <p class="nameInfo"><span id="accountName"></span> <span id="accountSecondName"></span></p>
+                <p class="teamInfo"><span id="accountTeam"></span></p>
+            </div>
         </div>
     </div>
 
@@ -80,4 +83,7 @@
 
 <script>
     userName.innerHTML = sessionStorage.NOME_USUARIO;
+    accountName.innerHTML = sessionStorage.NOME_USUARIO;
+    accountSecondName.innerHTML = sessionStorage.SOBRENOME_USUARIO;
+    accountTeam.innerHTML = sessionStorage.TIME_USUARIO;
 </script>

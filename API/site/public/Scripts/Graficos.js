@@ -44,7 +44,7 @@ function plotarGrafico(resposta) {
     let dados = {
         labels: labels,
         datasets: [{
-            label: 'Times',
+            label: 'Quantidade de torcedores',
             borderColor: '#14FF00',
             backgroundColor: '#14FF00',
             data: [],
@@ -67,7 +67,7 @@ function plotarGrafico(resposta) {
     console.log('----------------------------------------------')
     console.log('O gráfico será plotado com os respectivos valores:')
     console.log('Labels:')
-    console.log(resposta)
+    console.log(labels)
     console.log('Dados:')
     console.log(dados.datasets)
     console.log('----------------------------------------------')

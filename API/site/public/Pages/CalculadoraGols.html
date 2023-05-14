@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="../Styles/Components/TeamsHeader.css">
     <link rel="stylesheet" href="../Styles/Components/Header.css">
     <link rel="stylesheet" href="../Styles/Components/Button.css">
+    <link rel="stylesheet" href="../Styles/Components/BackButton.css">
+    <link rel="stylesheet" href="../Styles/Components/Account.css">
     <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
     <title>Soccerz - Calculadora Gols</title>
 </head>
@@ -33,11 +35,16 @@
             <a href="">Curiosidades</a>
             <a href="">História</a>
             <p>|</p>
-            <a href="Login.html">Login</a>
-            <a href="Cadastro.html">Cadastro</a>
+            <div class="accountInfoContainer" id="accountInfoContainer">
+                <p class="nameInfo"><span id="accountName"></span> <span id="accountSecondName"></span></p>
+                <p class="teamInfo"><span id="accountTeam"></span></p>
+            </div>
         </div>
     </div>
     
+    <div class="buttonBack">
+        <a href="UserPage.html">&lt; Voltar</a>
+    </div>
 
     <div class="calculatorMainContainer">
         Insira aqui a quantidade de partidas que você jogou no mês: <input id="inputQtdPartidas"><br>
@@ -48,7 +55,12 @@
         <div id="divMedia"></div>
     </div>
 </body>
+</html>
 <script src="../Scripts/Calculadora.js"></script>
 <script src="../Scripts/Menu.js"></script>
-</html>
 
+<script>
+    accountName.innerHTML = sessionStorage.NOME_USUARIO;
+    accountSecondName.innerHTML = sessionStorage.SOBRENOME_USUARIO;
+    accountTeam.innerHTML = sessionStorage.TIME_USUARIO;
+</script>

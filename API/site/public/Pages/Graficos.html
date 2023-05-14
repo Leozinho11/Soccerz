@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../Styles/Components/Header.css">
     <link rel="stylesheet" href="../Styles/Components/Card.css">
     <link rel="stylesheet" href="../Styles/Components/Button.css">
+    <link rel="stylesheet" href="../Styles/Components/BackButton.css">
     <link rel="stylesheet" href="../Styles/Components/TeamsHeader.css">
     <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
     <title>Soccerz - Graficos</title>
@@ -34,9 +35,15 @@
             <a href="">Curiosidades</a>
             <a href="">História</a>
             <p>|</p>
-            <a href="Login.html">Login</a>
-            <a href="Cadastro.html">Cadastro</a>
+            <div class="accountInfoContainer" id="accountInfoContainer">
+                <p class="nameInfo"><span id="accountName"></span> <span id="accountSecondName"></span></p>
+                <p class="teamInfo"><span id="accountTeam"></span></p>
+            </div>
         </div>
+    </div>
+
+    <div class="buttonBack">
+        <a href="UserPage.html">&lt; Voltar</a>
     </div>
 
     <div class="graficsContainer">
@@ -47,10 +54,14 @@
     </div>
 
 </body>
-
 </html>
 
 <script src="../Scripts/Menu.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="../Scripts/Graficos.js"></script>
 
+<script>
+    accountName.innerHTML = sessionStorage.NOME_USUARIO;
+    accountSecondName.innerHTML = sessionStorage.SOBRENOME_USUARIO;
+    accountTeam.innerHTML = sessionStorage.TIME_USUARIO;
+</script>

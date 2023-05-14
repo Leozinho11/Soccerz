@@ -1,0 +1,12 @@
+.accountInfoContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.nameInfo{
+    font-size: 1.10rem;
+}
+
+.teamInfo{
+    font-size: 1rem;
+}
