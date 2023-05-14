@@ -1,4 +1,4 @@
-userName.innerHTML = sessionStorage.NOME_USUARIO;
+
 
 if (sessionStorage.TIME_USUARIO == "Flamengo") {
     var headerClass = document.getElementById("header")

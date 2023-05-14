@@ -12,41 +12,43 @@
         rel="stylesheet">
     <link rel="stylesheet" href="../Styles/Global.css">
     <link rel="stylesheet" href="../Styles/Calculator.css">
+    <link rel="stylesheet" href="../Styles/Components/TeamsHeader.css">
     <link rel="stylesheet" href="../Styles/Components/Header.css">
     <link rel="stylesheet" href="../Styles/Components/Button.css">
     <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
-    <title>Soccerz - Home</title>
+    <title>Soccerz - Calculadora Gols</title>
 </head>
 
 <body>
-    <div class="header">
-        <div class="headerImg">
-            <a href="../Index.html">
+    <div class="header" id="header">
+        <div class="headerImg" id="headerImg">
+            <a href="../Index.html" id="headerImgTeam">
                 <img src="../Assets/logoIndividual.svg" alt="">
             </a>
         </div>
 
-        <div class="headerLinks">
+        <div class="headerLinks" id="headerLinks">
             <a href="../Index.html">Home</a>
             <a href="">Sobre</a>
             <a href="">Curiosidades</a>
             <a href="">História</a>
             <p>|</p>
-            <a href="">Login</a>
+            <a href="Login.html">Login</a>
             <a href="Cadastro.html">Cadastro</a>
         </div>
     </div>
+    
 
     <div class="calculatorMainContainer">
         Insira aqui a quantidade de partidas que você jogou no mês: <input id="inputQtdPartidas"><br>
-        Insira aqui a quantidade de gols que você marcou em média por partida: <input id="inputQtdGols"><br>
-        <button onclick="calcularMediaGols()">Ver média de gols no mês</button>
+        Insira aqui a quantidade de gols que você marcou no mês: <input id="inputQtdGols"><br>
+        <button onclick="calcularMediaGols()">Ver média de gols por partida</button>
         <br>
         <br>
         <div id="divMedia"></div>
     </div>
 </body>
 <script src="../Scripts/Calculadora.js"></script>
-
+<script src="../Scripts/Menu.js"></script>
 </html>
 

@@ -11,13 +11,13 @@
         href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&family=Kanit:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../Styles/Global.css">
-    <link rel="stylesheet" href="../Styles//Menu.css">
+    <link rel="stylesheet" href="../Styles/Graficos.css">
     <link rel="stylesheet" href="../Styles/Components/Header.css">
     <link rel="stylesheet" href="../Styles/Components/Card.css">
     <link rel="stylesheet" href="../Styles/Components/Button.css">
     <link rel="stylesheet" href="../Styles/Components/TeamsHeader.css">
     <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
-    <title>Soccerz - Menu</title>
+    <title>Soccerz - Graficos</title>
 </head>
 
 <body>
@@ -39,45 +39,18 @@
         </div>
     </div>
 
-    <div class="menuMainContainer">
-
-        <div class="menuGreetingsContainer">
-            <h1>Opa, <span id="userName"></span>.</h1>
-            <p>o que manda hoje?</p>
-        </div>
-
-
-        <div class="menuRowContainer">
-            <div class="cardContainerImg" id="cardContainerImg">
-                <img src="../Assets/CardImages/CalculatorContainerMainPhoto.svg" alt="">
-            </div>
-
-            <div class="menuCardsContainer">
-                <div class="card">
-                    <img src="../Assets/CardImages/CardCalculatorPhoto.svg" alt="">
-                    <p>Jogou um fut ? <br>
-                        Então clique aqui para calcular sua média de gols no mês</p>
-                    <a href="CalculadoraGols.html">
-                        <button>Calcular gols</button>
-                    </a>
-                </div>
-
-                <div class="card">
-                    <img src="../Assets/CardImages/CardGraphicsPhoto.svg" alt="">
-                    <p>Veja aqui quais times possuem maiores torcedores segundo o nosso site</p>
-                    <a href="Graficos.html">
-                        <button>Ver gráfico</button>
-                    </a>
-                </div>
-            </div>
+    <div class="graficsContainer">
+        <h1>Times com maiores torcedores segundo o Soccerz:</h1>
+        <div class="graficsData">
+            <canvas class="graficsData" id="myChart"></canvas>
         </div>
     </div>
+
 </body>
 
 </html>
 
 <script src="../Scripts/Menu.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../Scripts/Graficos.js"></script>
 
-<script>
-    userName.innerHTML = sessionStorage.NOME_USUARIO;
-</script>
