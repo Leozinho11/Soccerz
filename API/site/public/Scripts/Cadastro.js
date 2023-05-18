@@ -145,6 +145,7 @@ function validacaoCadastro() {
     };
 
     if (document.getElementsByClassName("inputError").length > 0) {
+        
 
     } else {
         window.location = "../Pages/Login.html"

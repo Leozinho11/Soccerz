@@ -1,0 +1,29 @@
+.sobreMimTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.myImageContainer{
+    display: flex;
+    height: 35rem;
+}
+
+.myImageContainer img{
+    border-radius: 100px;
+}
+
+.mytextContainer{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 30rem;
+}
+
+
