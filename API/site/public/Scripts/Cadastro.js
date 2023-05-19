@@ -89,6 +89,7 @@ function validacaoCadastro() {
     };
 
     if (UF == "Selecionar") {
+        UF = null
         classObj = document.getElementById("selectUF")
         classObj.classList.remove("selectUF")
         classObj.classList.add("selectError")
@@ -134,6 +135,7 @@ function validacaoCadastro() {
     };
 
     if (time == "Selecionar") {
+        time = null
         classObj = document.getElementById("selectTime")
         classObj.classList.remove("selectTime")
         classObj.classList.add("selectError")
@@ -144,8 +146,8 @@ function validacaoCadastro() {
         classObj.classList.add("selectTime")
     };
 
-    if (document.getElementsByClassName("inputError").length > 0) {
-        
+    if (document.getElementsByClassName("inputError").length > 0 || document.getElementsByClassName("selectError").length > 0) {
+        throw "Erro";
 
     } else {
         window.location = "../Pages/Login.html"
