@@ -1,6 +1,7 @@
 
 
-if (sessionStorage.TIME_USUARIO == "Flamengo") {
+if (sessionStorage.TIME_USUARIO == "10") {
+    accountTeam.innerHTML = "Flamengo"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -18,7 +19,8 @@ if (sessionStorage.TIME_USUARIO == "Flamengo") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Zico.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Santos") {
+if (sessionStorage.TIME_USUARIO == "18") {
+    accountTeam.innerHTML = "Santos"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -36,7 +38,8 @@ if (sessionStorage.TIME_USUARIO == "Santos") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Neymar.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Palmeiras") {
+if (sessionStorage.TIME_USUARIO == "16") {
+    accountTeam.innerHTML = "Palmeiras"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -54,7 +57,8 @@ if (sessionStorage.TIME_USUARIO == "Palmeiras") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Marcos.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "São Paulo") {
+if (sessionStorage.TIME_USUARIO == "19") {
+    accountTeam.innerHTML = "São Paulo"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -72,7 +76,8 @@ if (sessionStorage.TIME_USUARIO == "São Paulo") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Ceni.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Corinthians") {
+if (sessionStorage.TIME_USUARIO == "6") {
+    accountTeam.innerHTML = "Corinthians"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -90,7 +95,8 @@ if (sessionStorage.TIME_USUARIO == "Corinthians") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Socrates.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Internacional") {
+if (sessionStorage.TIME_USUARIO == "15") {
+    accountTeam.innerHTML = "Internacional"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -108,7 +114,8 @@ if (sessionStorage.TIME_USUARIO == "Internacional") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Falcão.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Grêmio") {
+if (sessionStorage.TIME_USUARIO == "14") {
+    accountTeam.innerHTML = "Grêmio"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -126,7 +133,8 @@ if (sessionStorage.TIME_USUARIO == "Grêmio") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/RenatoPortaluppi.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Goiás") {
+if (sessionStorage.TIME_USUARIO == "13") {
+    accountTeam.innerHTML = "Goiás"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -144,7 +152,8 @@ if (sessionStorage.TIME_USUARIO == "Goiás") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Luvanor.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Coritiba") {
+if (sessionStorage.TIME_USUARIO == "7") {
+    accountTeam.innerHTML = "Coritiba"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -162,7 +171,8 @@ if (sessionStorage.TIME_USUARIO == "Coritiba") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Kleber.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "América-MG") {
+if (sessionStorage.TIME_USUARIO == "1") {
+    accountTeam.innerHTML = "América-MG"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -180,7 +190,8 @@ if (sessionStorage.TIME_USUARIO == "América-MG") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/JairBala.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Atlético-MG") {
+if (sessionStorage.TIME_USUARIO == "3") {
+    accountTeam.innerHTML = "Atlético-MG"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -198,7 +209,8 @@ if (sessionStorage.TIME_USUARIO == "Atlético-MG") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Victor.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Red Bull Bragantino") {
+if (sessionStorage.TIME_USUARIO == "17") {
+    accountTeam.innerHTML = "Red Bull Bragantino"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -216,7 +228,8 @@ if (sessionStorage.TIME_USUARIO == "Red Bull Bragantino") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Claudinho.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Vasco") {
+if (sessionStorage.TIME_USUARIO == "20") {
+    accountTeam.innerHTML = "Vasco"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -234,7 +247,8 @@ if (sessionStorage.TIME_USUARIO == "Vasco") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Dinamite.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Botafogo") {
+if (sessionStorage.TIME_USUARIO == "5") {
+    accountTeam.innerHTML = "Botafogo"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -252,7 +266,8 @@ if (sessionStorage.TIME_USUARIO == "Botafogo") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Garrincha.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Fluminense") {
+if (sessionStorage.TIME_USUARIO == "11") {
+    accountTeam.innerHTML = "Fluminense"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -270,7 +285,8 @@ if (sessionStorage.TIME_USUARIO == "Fluminense") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Fred.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Fortaleza") {
+if (sessionStorage.TIME_USUARIO == "12") {
+    accountTeam.innerHTML = "Fortaleza"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -288,7 +304,8 @@ if (sessionStorage.TIME_USUARIO == "Fortaleza") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Clodoaldo.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Bahia") {
+if (sessionStorage.TIME_USUARIO == "4") {
+    accountTeam.innerHTML = "Bahia"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -306,7 +323,8 @@ if (sessionStorage.TIME_USUARIO == "Bahia") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Bobo.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Athletico-PR") {
+if (sessionStorage.TIME_USUARIO == "2") {
+    accountTeam.innerHTML = "Athletico-PR"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -324,7 +342,8 @@ if (sessionStorage.TIME_USUARIO == "Athletico-PR") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/Pablo.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Cuiabá") {
+if (sessionStorage.TIME_USUARIO == "9") {
+    accountTeam.innerHTML = "Cuiabá"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")
@@ -342,7 +361,8 @@ if (sessionStorage.TIME_USUARIO == "Cuiabá") {
     cardContainerImg.innerHTML = `<img src="../Assets/MenuImages/AndersonConceicao.svg" alt="">`
 }
 
-if (sessionStorage.TIME_USUARIO == "Cruzeiro") {
+if (sessionStorage.TIME_USUARIO == "8") {
+    accountTeam.innerHTML = "Cruzeiro"
     var headerClass = document.getElementById("header")
     var headerLinksClass = document.getElementById("headerLinks")
     var headerImgClass = document.getElementById("headerImg")

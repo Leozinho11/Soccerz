@@ -60,8 +60,8 @@ function plotarGrafico(resposta) {
     // Inserindo valores recebidos em estrutura para plotar o gráfico
     for (i = 0; i < resposta.length; i++) {
         var registro = resposta[i];
-        labels.push(registro.timeUsuario);
-        dados.datasets[0].data.push(registro["COUNT(timeUsuario)"]);
+        labels.push(registro.nome);
+        dados.datasets[0].data.push(registro["COUNT(fkTime)"]);
     }
 
     console.log('----------------------------------------------')
