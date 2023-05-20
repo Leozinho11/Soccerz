@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/Components/Carroussel.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="carrousselContainer">
+        <button onclick="imagemAnterior()">&LeftArrow;</button>
+        <div id="carroussel">a</div>
+        <button onclick="proximaImagem()">&RightArrow;</button>
+    </div>
+</body>
+</html>
+
+<script>
+    var imagensCarroussel = ['a', 'b', 'c']
+    var i = 1
+    
+    function proximaImagem() {
+        var imagemAtual = imagensCarroussel[i]
+        carroussel.innerHTML = `${imagemAtual}`
+        i++
+        if ((i + 1) > imagensCarroussel.length) {
+            i = 0
+        }
+        console.log(i);
+    }
+
+    function imagemAnterior() {
+        var imagemAtual = imagensCarroussel[i]
+        carroussel.innerHTML = `${imagemAtual}`
+        i -= 1 
+        if (i < 0) {
+           i = imagensCarroussel.length - 1
+        }
+        console.log(i);  
+    }
+</script>

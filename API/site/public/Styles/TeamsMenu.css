@@ -1,0 +1,49 @@
+.teamsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.teamsContainer h1{
+    font-size: 2rem;
+    color: #14FF00;
+    width: 55rem;
+    margin-bottom: 1rem;
+}
+
+.teamsCardsAsside {
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 17.5rem;
+    border: 2px solid #14FF00;
+    border-radius: 50px;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.card img {
+    height: 10rem;
+    border-radius: 40px;
+}
+
+.card h2 {
+    font-family: 'Kanit', sans-serif;
+    color: #14FF00;
+}
+
+.card:hover {
+    background-color: whitesmoke;
+    transition: all 0.1s;
+}
