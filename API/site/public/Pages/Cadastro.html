@@ -54,7 +54,7 @@
             </div>
 
             <label for="inputCPF">
-                CPF: (insira os pontos e o traço) <input id="inputCPF" class="inputCPF" autocomplete="off
+                CPF: <input id="inputCPF" class="inputCPF" autocomplete="off
                 " placeholder="Insira seu CPF">
             </label>
 
@@ -149,5 +149,16 @@
         </div>
     </div>
 </body>
+
 </html>
 <script src="../Scripts/Cadastro.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/cleave.min.js" integrity="sha512-KaIyHb30iXTXfGyI9cyKFUIRSSuekJt6/vqXtyQKhQP6ozZEGY8nOtRS6fExqE4+RbYHus2yGyYg1BrqxzV6YA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+    var cleave = new Cleave('#inputCPF', {
+            delimiters: ['.', '.', '-'],
+            blocks: [3, 3, 3, 2],
+            numericOnly: true
+        });
+</script>

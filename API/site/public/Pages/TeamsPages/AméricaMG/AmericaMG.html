@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&family=Kanit:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../../Styles/Global.css">
+    <link rel="stylesheet" href="../../../Styles/Components/TeamsHeader.css">
+    <link rel="stylesheet" href="../../../Styles/Components/Carroussel.css">
+    <link rel="shortcut icon" href="../../../Assets/favicon.svg" type="image/x-icon">
+    <title>Soccerz - Times - América-MG</title>
+</head>
+
+<body>
+    <div class="americamgHeader">
+        <div class="americamgImg">
+            <a href="../../../Index.html">
+                <img src="../../../Assets/logoIndividual.svg" alt="">
+                <p>|</p>
+                <img class="timeImg" src="../../../Assets/TimesImages/AmericaMG.svg" alt="">
+            </a>
+        </div>
+
+        <div class="americamgLinks">
+            <a href="../../../Index.html">Home</a>
+            <a href="../../SobreMim.html">Sobre mim</a>
+            <a href="../../TeamsMenu.html">Times</a>
+            <a href="">História</a>
+            <p>|</p>
+            <a href="../../Login.html">Login</a>
+            <a href="../../Cadastro.html">Cadastro</a>
+        </div>
+    </div>
+
+    <div class="carrousselContainer">
+        <button onclick="imagemAnterior()">&LeftArrow;</button>
+        <div id="carroussel">a</div>
+        <button onclick="proximaImagem()">&RightArrow;</button>
+    </div>
+</body>
+
+</html>
+
+<script>
+    var imagensCarroussel = ['a', 'b', 'c']
+    var i = 1
+    
+    function proximaImagem() {
+        var imagemAtual = imagensCarroussel[i]
+        carroussel.innerHTML = `${imagemAtual}`
+        i++
+        if ((i + 1) > imagensCarroussel.length) {
+            i = 0
+        }
+        console.log(i);
+    }
+
+    function imagemAnterior() {
+        var imagemAtual = imagensCarroussel[i]
+        carroussel.innerHTML = `${imagemAtual}`
+        i -= 1 
+        if (i < 0) {
+           i = imagensCarroussel.length - 1
+        }
+        console.log(i);  
+    }
+</script>
