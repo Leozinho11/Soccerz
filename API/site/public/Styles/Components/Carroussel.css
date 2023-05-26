@@ -1,3 +1,38 @@
 .carrousselContainer{
     display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carrousselContainer img{
+    height: 20rem;
+}
+
+.carrousselContainer button{
+    border-radius: 95px;
+    padding: 1rem;
+    border: 1px solid #14FF00;
+    
+}
+
+.carrousselContainer button:hover{
+    display: flex;
+    background-color: #14FF00;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.carroussel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.carroussel p{
+    display: flex;
+    text-align: center;
+    font-size: 1.5rem;
 }

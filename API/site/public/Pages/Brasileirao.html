@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&family=Kanit:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/Global.css">
+    <link rel="stylesheet" href="../Styles/Components/Header.css">
+    <link rel="stylesheet" href="../Styles/Components/Carroussel.css">
+    <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
+    <title>Soccerz - Futebol no Brasil</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="headerImg">
+            <a href="../Index.html">
+                <img src="../Assets/logoIndividual.svg" alt="">
+            </a>
+        </div>
+
+        <div class="headerLinks">
+            <a href="../Index.html">Home</a>
+            <a href="SobreMim.html">Sobre mim</a>
+            <a href="TeamsMenu.html">Times</a>
+            <a href="#">Brasileirão</a>
+            <p>|</p>
+            <a href="Login.html">Login</a>
+            <a href="Cadastro.html">Cadastro</a>
+        </div>
+    </div>
+
+    <div class="mainContainer">
+        <div class="carrousselContainer">
+            <button onclick="imagemAnterior()">&LeftArrow;</button>
+            <div id="carroussel" class="carroussel">
+                <img src="../Assets/TimesImages/Vasco.svg" alt="">
+                <p>Vasco</p>
+            </div>
+            <button onclick="proximaImagem()">&RightArrow;</button>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    var imagensCarroussel = [
+        {
+            img: '../Assets/TimesImages/Vasco.svg',
+            time: 'Vasco'
+        },
+        {
+            img: '../Assets/TimesImages/Santos.svg',
+            time: 'Santos'
+        },
+        {
+            img:'../Assets/TimesImages/Cuiaba.svg',
+            time: 'Cuiabá'
+        }
+    ]
+    var i = 1
+
+    function proximaImagem() {
+        var imagemAtual = imagensCarroussel[i]
+        carroussel.innerHTML = `<img src="${imagemAtual.img}" alt=""> <p>${imagemAtual.time}</p>`
+        i++
+        if ((i + 1) > imagensCarroussel.length) {
+            i = 0
+        }
+        console.log(i);
+    }
+
+    function imagemAnterior() {
+        var imagemAtual = imagensCarroussel[i]
+        carroussel.innerHTML = `<img src="${imagemAtual.img}" alt=""> <p>${imagemAtual.time}</p>`
+        i -= 1
+        if (i < 0) {
+            i = imagensCarroussel.length - 1
+        }
+        console.log(i);
+    }
+</script>
