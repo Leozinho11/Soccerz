@@ -1,24 +1,34 @@
 .carrousselContainer{
     display: flex;
-    width: 100vw;
+    width: 60rem;
     align-items: center;
     justify-content: space-around;
 }
 
 .carrousselContainer img{
-    height: 20rem;
+    height: 12rem;
 }
 
 .carrousselContainer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 95px;
     padding: 1rem;
-    border: 1px solid #14FF00;
-    
+    border: none;
+    background-color: white;
+    backdrop-filter: blur(8px);
+    color: #14FF00;
+}
+
+.carrousselContainer button span{
+    font-size: 1.5rem;
 }
 
 .carrousselContainer button:hover{
     display: flex;
     background-color: #14FF00;
+    color: black;
     transition: all 0.2s ease-in-out;
     transform: scale(1.1);
 }
@@ -31,8 +41,3 @@
     gap: 1rem;
 }
 
-.carroussel p{
-    display: flex;
-    text-align: center;
-    font-size: 1.5rem;
-}

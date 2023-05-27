@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -11,10 +11,11 @@
         href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&family=Kanit:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../Styles/Global.css">
+    <link rel="stylesheet" href="../Styles/Brasileirao.css">
     <link rel="stylesheet" href="../Styles/Components/Header.css">
     <link rel="stylesheet" href="../Styles/Components/Carroussel.css">
     <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
-    <title>Soccerz - Futebol no Brasil</title>
+    <title>Soccerz - Brasileirão</title>
 </head>
 
 <body>
@@ -36,14 +37,66 @@
         </div>
     </div>
 
-    <div class="mainContainer">
+    <div class="brasileiraoMainContainer">
+        <div class="brasileiraoImgContainer">
+            <img src="../Assets/Brasileirao.svg" alt="">
+        </div>
+
+        <h1>Campeonato Brasileiro (Brasileirão)</h1>
+
+        <div class="textContainer">
+            <p>
+                O campeonato brasileiro, conhecido como Brasileirão, é o principal torneio de futebol do nosso país. Seu
+                formato de disputa é de pontos corridos e contém 4 divisões, representadas pelas letras de A à D,
+                respectivamente.
+            </p>
+            <p>
+                Cada divisão, possuí 20 times participantes, com excessão da divisão D que possuí 48 times participantes
+                divididos em 6 grupos de 8 times.
+            </p>
+            <p>
+                No entanto, focaremos na Série A.
+            </p>
+            <p>
+                Como dito anteriormente, a série A possuí 20 equipes participantes, de maneira que do primeiro ao sexto colocado se classificam para a Taça Libertadores da América, do sétimo ao décimo-segundo se classificam para a Sulamericana, ambos torneios continentais, e os quatro últimos são rebaixados para a série B.
+            </p>
+            <p>
+                Bom, a série A do brasileirão foi criada inicialmente em 1959, com a extinta Taça Brasil, que era um torneio disputado em mata-mata e teve como seu primeiro campeão a equipe do Bahia.
+            </p>
+            <p>
+                O brasileirão começou a ficar mais semelhante com o formato que é conhecido hoje em dia a partir de 1971, ano no qual passaram-se a ter 20 equipes disputando o campeonato, que ainda era disputado em mata-mata e teve como campeão a equipe do Atlético Mineiro. Nesse período o torneio se chamava Campeonato Nacional de Clubes da CBD (Confederação Brasileira de Desportes).
+            </p>
+            <p>
+                A partir de 1979, a CBD foi desmembrada e passou a se chamar CBF (Confederação Brasileira de Futebol) e em 1980 o torneio se chamou Taça de Ouro e teve como campeão a equipe do Flamengo, do craque Zico.
+            </p>
+            <p>
+                O nome "Campeonato Brasileiro" surgiu oficialmente em 1989, para evitar confusões com os demais torneios do país, e por fim o modelo de pontos corridos surgiu em 2003 e segue até os tempos atuais.
+            </p>
+            <h2>Curiosidades</h2>
+            <p>
+                O atual campeão do torneio é o Palmeiras, que venceu o campeonato de 2022 e também é o maior campeão do brasileirão com 11 titúlos. Em seguida vem o Santos com 8 triunfos na competição.
+            </p>
+            <p>
+                O Santos, São Paulo e o Flamengo são as únicas equipes que nunca foram rebaixadas no torneio.
+            </p>
+            <p>
+                O maior artilheiro da competição é o ídolo do Vasco Roberto Dinamite, que marcou 190 gols.
+            </p>
+            <p>
+                O São Paulo é a única equipe que ganhou o campeonato brasileiro 3 vezes seguidas na era dos pontos corridos: (2006, 2007, 2008).
+            </p>
+        </div>
+
+        <h2 class="carrousselTitle">Essas são as 20 equipes que estão disputando o Campeonato Brasileiro de 2023:</h2>
+
         <div class="carrousselContainer">
-            <button onclick="imagemAnterior()">&LeftArrow;</button>
+            <button onclick="imagemAnterior()"><span>&LeftArrow;</span></button>
             <div id="carroussel" class="carroussel">
-                <img src="../Assets/TimesImages/Vasco.svg" alt="">
-                <p>Vasco</p>
+                <img src="../Assets/TimesImages/AmericaMG.svg" alt="">
+                <p class="teamName">América-MG</p>
+                <p class="teamCity">Belo Horizonte-MG</p>
             </div>
-            <button onclick="proximaImagem()">&RightArrow;</button>
+            <button onclick="proximaImagem()"><span>&RightArrow;</span></button>
         </div>
     </div>
 </body>
@@ -53,23 +106,113 @@
 <script>
     var imagensCarroussel = [
         {
-            img: '../Assets/TimesImages/Vasco.svg',
-            time: 'Vasco'
+            img: '../Assets/TimesImages/AmericaMG.svg',
+            time: 'América-MG',
+            cidadeNatal: 'Belo Horizonte-MG'
+        },
+        {
+            img: '../Assets/TimesImages/AthleticoPR.svg',
+            time: 'Athletico-PR',
+            cidadeNatal: 'Curitiba-PR'
+        },
+        {
+            img: '../Assets/TimesImages/AtleticoMG.svg',
+            time: 'Atlético-MG',
+            cidadeNatal: 'Belo Horizonte-MG'
+        },
+        {
+            img: '../Assets/TimesImages/Bahia.svg',
+            time: 'Bahia',
+            cidadeNatal: 'Salvador-BA'
+        },
+        {
+            img: '../Assets/TimesImages/Botafogo.svg',
+            time: 'Botafogo',
+            cidadeNatal: 'Rio de Janeiro-RJ'
+        },
+        {
+            img: '../Assets/TimesImages/Corinthians.svg',
+            time: 'Corinthians',
+            cidadeNatal: 'São Paulo-SP'
+        },
+        {
+            img: '../Assets/TimesImages/Coritiba.svg',
+            time: 'Coritiba',
+            cidadeNatal: 'Curitiba-PR'
+        },
+        {
+            img: '../Assets/TimesImages/Cruzeiro.svg',
+            time: 'Cruzeiro',
+            cidadeNatal: 'Belo Horizonte-MG'
+        },
+        {
+            img: '../Assets/TimesImages/Cuiaba.svg',
+            time: 'Cuiabá',
+            cidadeNatal: 'Cuiabá-MT'
+        },
+        {
+            img: '../Assets/TimesImages/Flamengo.svg',
+            time: 'Flamengo',
+            cidadeNatal: 'Rio de Janeiro-RJ'
+        },
+        {
+            img: '../Assets/TimesImages/Fluminense.svg',
+            time: 'Fluminense',
+            cidadeNatal: 'Rio de Janeiro-RJ'
+        },
+        {
+            img: '../Assets/TimesImages/Fortaleza.svg',
+            time: 'Fortaleza',
+            cidadeNatal: 'Fortaleza-CE'
+        },
+        {
+            img: '../Assets/TimesImages/Goias.svg',
+            time: 'Goiás',
+            cidadeNatal: 'Goiania-GO'
+        },
+        {
+            img: '../Assets/TimesImages/Gremio.svg',
+            time: 'Grêmio',
+            cidadeNatal: 'Porto Alegre-RS'
+        },
+        {
+            img: '../Assets/TimesImages/Internacional.svg',
+            time: 'Internacional',
+            cidadeNatal: 'Porto Alegre-RS'
+        },
+        {
+            img: '../Assets/TimesImages/Palmeiras.svg',
+            time: 'Palmeiras',
+            cidadeNatal: 'São Paulo-SP'
+        },
+        {
+            img: '../Assets/TimesImages/RBBragantino.svg',
+            time: 'Red Bull Bragantino',
+            cidadeNatal: 'Bragança Paulista-SP'
         },
         {
             img: '../Assets/TimesImages/Santos.svg',
-            time: 'Santos'
+            time: 'Santos',
+            cidadeNatal: 'Santos-SP'
         },
         {
-            img:'../Assets/TimesImages/Cuiaba.svg',
-            time: 'Cuiabá'
+            img: '../Assets/TimesImages/SaoPaulo.svg',
+            time: 'São Paulo',
+            cidadeNatal: 'São Paulo-SP'
+        },
+        {
+            img: '../Assets/TimesImages/Vasco.svg',
+            time: 'Vasco',
+            cidadeNatal: 'Rio de Janeiro-RJ'
         }
     ]
     var i = 1
 
     function proximaImagem() {
         var imagemAtual = imagensCarroussel[i]
-        carroussel.innerHTML = `<img src="${imagemAtual.img}" alt=""> <p>${imagemAtual.time}</p>`
+        carroussel.innerHTML = `<img src="${imagemAtual.img}" alt="">
+                <p class="teamName">${imagemAtual.time}</p>
+                <p class="teamCity">${imagemAtual.cidadeNatal}</p>`
         i++
         if ((i + 1) > imagensCarroussel.length) {
             i = 0
@@ -79,7 +222,9 @@
 
     function imagemAnterior() {
         var imagemAtual = imagensCarroussel[i]
-        carroussel.innerHTML = `<img src="${imagemAtual.img}" alt=""> <p>${imagemAtual.time}</p>`
+        carroussel.innerHTML = `<img src="${imagemAtual.img}" alt="">
+                <p class="teamName">${imagemAtual.time}</p>
+                <p class="teamCity">${imagemAtual.cidadeNatal}</p>`
         i -= 1
         if (i < 0) {
             i = imagensCarroussel.length - 1
