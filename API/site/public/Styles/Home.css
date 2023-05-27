@@ -5,6 +5,7 @@
     gap: 1rem;
     margin-top: 1rem;
     border-bottom: 3px solid #14FF00;
+    padding-bottom: 5rem;
 }
 
 .homeMainTextContainer{
@@ -12,24 +13,31 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #14FF00;
     color: black;
     gap: 2rem;
-    width: 35.5rem;
-    height: 36.5rem;
+    width: 25rem;
+    border: 3px solid #14FF00;
     border-radius: 45px;
+    padding: 1rem;
 }
 
 .homeMainTextContainer h1{
-    width: 25.5rem;
+    width: 25rem;
 }
 
 .homeMainTextContainer p{
-    width: 27.5rem;
-    font-size: 2rem;
+    width: 25rem;
+    font-size: 1.25rem;
+}
+
+.homeButton{
+    display: flex;
+    background-color: white;
+    border: 2px solid #14FF00;
+    transition: all 0.1s;
 }
 
 .homeMainImgContainer img{
-    width: 26.5rem;
+    width: 25rem;
 }
 

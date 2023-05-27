@@ -53,7 +53,9 @@ function entrar() {
         } else {
 
             console.log("Houve um erro ao tentar realizar o login!");
-
+            alert("Email e/ou senha incorretos")
+            inputEmail.value = ""
+            inputSenha.value = ""
             resposta.text().then(texto => {
                 console.error(texto);
             });
