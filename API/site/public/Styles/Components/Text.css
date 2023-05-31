@@ -1,0 +1,10 @@
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40rem;
+}
+
+.textContainer p{
+    font-size: 1.25rem;
+}

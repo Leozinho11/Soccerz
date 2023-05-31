@@ -1,9 +1,10 @@
 .header {
     display: flex;
     align-items: center;
-    border-bottom: 3px solid #14FF00;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to left, black, #14FF00) 1;
     height: 6.5rem;
-    gap: 45rem;
+    gap: 40rem;
 }
 
 .headerImg{

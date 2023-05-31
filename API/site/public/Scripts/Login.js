@@ -8,7 +8,6 @@ function validacaoLogin() {
 }
 
 
-
 function entrar() {
 
     validacaoLogin();
@@ -66,4 +65,6 @@ function entrar() {
     })
 
     return false;
+
 }
+
