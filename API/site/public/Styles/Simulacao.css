@@ -1,0 +1,37 @@
+.simulationContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.simulationContainer h1{
+    width: 50rem;
+    text-align: center;
+}
+
+.simulationMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.somaText span{
+    text-decoration: 2px underline #14FF00;
+}
+
+.somaText img{
+    height: 2rem;
+}
+
+select {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-family: 'Kanit', sans-serif;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&family=Kanit:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/Global.css">
+    <link rel="stylesheet" href="../Styles/Components/Header.css">
+    <link rel="stylesheet" href="../Styles/Simulacao.css">
+    <link rel="stylesheet" href="../Styles/Components/Card.css">
+    <link rel="stylesheet" href="../Styles/Components/Button.css">
+    <link rel="stylesheet" href="../Styles/Components/BackButton.css">
+    <link rel="stylesheet" href="../Styles/Components/TeamsHeader.css">
+    <link rel="shortcut icon" href="../Assets/favicon.svg" type="image/x-icon">
+    <title>Soccerz - Simulação</title>
+</head>
+
+<body>
+    <div class="header" id="header">
+        <div class="headerImg" id="headerImg">
+            <a href="../Index.html" id="headerImgTeam">
+                <img src="../Assets/logoIndividual.svg" alt="">
+            </a>
+        </div>
+
+        <div class="headerLinks" id="headerLinks">
+            <a href="../Index.html">Home</a>
+            <a href="SobreMim.html">Sobre mim</a>
+            <a href="FutebolNoBrasil.html">Futebol no Brasil</a>
+            <a href="Brasileirao.html">Brasileirão</a>
+            <p>|</p>
+            <div class="accountInfoContainer" id="accountInfoContainer">
+                <p class="nameInfo"><span id="accountName"></span> <span id="accountSecondName"></span></p>
+                <p class="teamInfo"><span id="accountTeam"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttonBack">
+        <a href="UserPage.html">&lt; Voltar</a>
+    </div>
+
+
+    <div class="simulationContainer">
+        <div class="simulationTitle">
+            <h1>Simule aqui como seria sua campanha no brasileirão</h1>
+        </div>
+        <div class="simulationMainContainer">
+            <label for="selectTime">Escolha seu time:</label>
+            <select id="selectTime" class="selectTime">
+                <option value="Selecionar" selected>Selecionar</option>
+                <option value="América-MG">América-MG</option>
+                <option value="Athletico-PR">Athletico-PR</option>
+                <option value="Atlético-MG">Atlético-MG</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Botafogo">Botafogo</option>
+                <option value="Corinthians">Corinthians</option>
+                <option value="Coritiba">Coritiba</option>
+                <option value="Cruzeiro">Cruzeiro</option>
+                <option value="Cuiabá">Cuiabá</option>
+                <option value="Flamengo">Flamengo</option>
+                <option value="Fluminense">Fluminense</option>
+                <option value="Fortaleza">Fortaleza</option>
+                <option value="Goiás">Goiás</option>
+                <option value="Grêmio">Grêmio</option>
+                <option value="Internacional">Internacional</option>
+                <option value="Palmeiras">Palmeiras</option>
+                <option value="Red Bull Bragantino">Red Bull Bragantino</option>
+                <option value="Santos">Santos</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Vasco">Vasco</option>
+            </select>
+            <button onclick="simular()">Simular</button>
+            <br>
+            <br>
+            <div class="resultado" id="resultado"></div>
+            <div id="somaTotal"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="../Scripts/Menu.js"></script>
+<script src="../Scripts/Simulacao.js"></script>
+<script>
+    accountName.innerHTML = sessionStorage.NOME_USUARIO;
+    accountSecondName.innerHTML = sessionStorage.SOBRENOME_USUARIO;
+</script>

@@ -21,6 +21,12 @@
     gap: 5rem;
 }
 
+.menuColumnContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 .menuCardsContainer{
     display: flex;
     align-items: center;

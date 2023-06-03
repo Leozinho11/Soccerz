@@ -55,22 +55,34 @@
                 <img src="../Assets/menuImage.svg" alt="">
             </div>
 
-            <div class="menuCardsContainer">
-                <div class="card">
-                    <img src="../Assets/CardImages/CardCalculatorPhoto.svg" alt="">
-                    <p>Jogou um fut ? <br>
-                        Então clique aqui para calcular sua média de gols no mês</p>
-                    <a href="CalculadoraGols.html">
-                        <button>Calcular gols</button>
-                    </a>
+            <div class="menuColumnContainer">
+                <div class="menuCardsContainer">
+                    <div class="card">
+                        <img src="../Assets/CardImages/CardCalculatorPhoto.svg" alt="">
+                        <p>Jogou um fut ? <br>
+                            Então clique aqui para calcular sua média de gols no mês</p>
+                        <a href="CalculadoraGols.html">
+                            <button>Calcular gols</button>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <img src="../Assets/CardImages/CardGraphicsPhoto.svg" alt="">
+                        <p>Veja aqui quais times possuem maiores torcedores segundo o nosso site</p>
+                        <a href="Graficos.html">
+                            <button>Ver gráfico</button>
+                        </a>
+                    </div>
                 </div>
 
-                <div class="card">
-                    <img src="../Assets/CardImages/CardGraphicsPhoto.svg" alt="">
-                    <p>Veja aqui quais times possuem maiores torcedores segundo o nosso site</p>
-                    <a href="Graficos.html">
-                        <button>Ver gráfico</button>
-                    </a>
+                <div class="menuCardsContainer">
+                    <div class="card">
+                        <img src="../Assets/CardImages/CardSimulationPhoto.svg" alt="">
+                        <p>Quer simular sua campanha no Brasileirão ?</p>
+                        <a href="Simulacao.html">
+                            <button>Simular campanha</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -91,19 +103,19 @@
 
     function verID() {
         fetch("/usuarios/cadastrarID", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-            // crie um atributo que recebe o valor recuperado aqui
-            // Agora vá para o arquivo routes/usuario.js
-            idServer: sessionStorage.ID_USUARIO
-        })
-    }).then(function (resposta) {
-        console.log("resposta: ", resposta);
-    }).catch(function (resposta) {
-        console.log(`#ERRO: ${resposta}`);
-    });
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                // crie um atributo que recebe o valor recuperado aqui
+                // Agora vá para o arquivo routes/usuario.js
+                idServer: sessionStorage.ID_USUARIO
+            })
+        }).then(function (resposta) {
+            console.log("resposta: ", resposta);
+        }).catch(function (resposta) {
+            console.log(`#ERRO: ${resposta}`);
+        });
     }
 </script>
