@@ -5,3 +5,9 @@
     justify-content: center;
     gap: 1.5rem;
 }
+
+.futebolBRImgContainer{
+    display: flex;
+    height: 28rem;
+    border-radius: 75px;
+}
