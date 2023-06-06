@@ -1,1 +1,0 @@
-# ProjetoIndividual_SPTech
